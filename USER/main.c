@@ -22,22 +22,13 @@ void System_Initial(void)
 int main()
 {
 	System_Initial();
-//	while(1)
-//	{
-//		printf("CH0=%d\r\n",FDC_GetCH(0));
-//		printf("CH1=%d\r\n",FDC_GetCH(1));
-//		printf("CH2=%d\r\n",FDC_GetCH(2));
-//		printf("CH3=%d\r\n",FDC_GetCH(3));
-//		printf("\r\n");
-//		delay_ms(500);
-//	}
 	while(1)
 	{
 		POINT_COLOR=BLACK;
-		ShowString(1,1,"CH2=");
-		ShowNum(1,5,FDC_GetCH(2));
-		ShowString(2,1,"CH3=");
-		ShowNum(2,5,FDC_GetCH(3));
+		ShowString(1,1,"CH0=");
+		ShowNum(1,5,FDC_GetCH(0));
+		ShowString(2,1,"CH1=");
+		ShowNum(2,5,FDC_GetCH(1));
 
 		LED1=!LED1;
 		delay_ms(100);
