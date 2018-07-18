@@ -6,6 +6,12 @@
 #include "usart.h"
 #include "stm32f10x_rcc.h"
 
+extern int Mode;
+extern int Mode_Size;
+
+extern int min(int a,int b);
+extern int max(int a,int b);
+
 /***************************
 
 Ò»Ð©±¸×¢£º

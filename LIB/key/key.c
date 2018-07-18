@@ -16,6 +16,10 @@ int Get_Key(void)
 		delay_ms(10);
 		if(K_U)
 		{
+			while(K_U)
+			{
+				delay_ms(50);
+			}
 			return Up;
 		}
 	}
@@ -24,6 +28,10 @@ int Get_Key(void)
 		delay_ms(10);
 		if(K_D)
 		{
+			while(K_D)
+			{
+				delay_ms(50);
+			}
 			return Down;
 		}
 	}
@@ -32,6 +40,10 @@ int Get_Key(void)
 		delay_ms(10);
 		if(K_L)
 		{
+			while(K_L)
+			{
+				delay_ms(50);
+			}
 			return Left;
 		}
 	}
@@ -40,6 +52,10 @@ int Get_Key(void)
 		delay_ms(10);
 		if(K_R)
 		{
+			while(K_R)
+			{
+				delay_ms(50);
+			}
 			return Right;
 		}
 	}
@@ -48,6 +64,10 @@ int Get_Key(void)
 		delay_ms(10);
 		if(K_O)
 		{
+			while(K_O)
+			{
+				delay_ms(50);
+			}
 			return Ok;
 		}
 	}

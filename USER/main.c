@@ -5,11 +5,25 @@
 #include "pretreat.h"
 #include "pid.h"
 #include "motor.h"
-#include "lcd.h"
-#include "key.h"
+#include "display.h"
+
+int min(int a,int b)
+{
+	return a>b? b:a;
+}
+
+int max(int a,int b)
+{
+	return a>b? a:b;
+}
+
+int Mode;
+int Mode_Size;
 
 void System_Initial(void)
 {
+	Mode=0;
+	Mode_Size=5;
 	delay_init();
 	uart_init(115200);
 	IIC_Init();
@@ -25,9 +39,14 @@ int main()
 {
 	System_Initial();
 	POINT_COLOR=BLACK;
-	ShowString(1,1,"Key=");
+	Main_Win();
+	ShowString(1,1,"Key=0");
 	while(1)
 	{
-		ShowNum(1,5,Get_Key());
+		int Tmp=Get_Key();
+		if(Tmp)
+		{
+			ShowNum(1,5,Tmp);
+		}
 	}
 }

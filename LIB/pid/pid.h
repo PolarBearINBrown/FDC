@@ -3,6 +3,8 @@
 
 #include "Headers.h"
 
+extern float Proportion,Integral,Derivative,Limit;
+
 extern void PID_Initial(void);
 
 extern int Inc_PID_Cal(float Target,float Now);

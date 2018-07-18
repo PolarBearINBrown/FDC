@@ -1,10 +1,5 @@
 #include "motor.h"
 
-int min(int a,int b)
-{
-	return a>b? b:a;
-}
-
 void Dir_Initial(void)
 {
 	GPIO_InitTypeDef  GPIO_InitStructure;
