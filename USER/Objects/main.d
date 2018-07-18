@@ -29,3 +29,4 @@
 .\objects\main.o: ..\LIB\lcd\lcd.h
 .\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 .\objects\main.o: ..\LIB\lcd\stm32f10x_fsmc.h
+.\objects\main.o: ..\LIB\key\key.h

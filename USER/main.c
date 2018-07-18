@@ -6,6 +6,7 @@
 #include "pid.h"
 #include "motor.h"
 #include "lcd.h"
+#include "key.h"
 
 void System_Initial(void)
 {
@@ -17,20 +18,16 @@ void System_Initial(void)
 	PID_Initial();
 	Motor_Initial();
 	LCD_Init();
+	Key_Initial();
 }
 
 int main()
 {
 	System_Initial();
+	POINT_COLOR=BLACK;
+	ShowString(1,1,"Key=");
 	while(1)
 	{
-		POINT_COLOR=BLACK;
-		ShowString(1,1,"CH0=");
-		ShowNum(1,5,FDC_GetCH(0));
-		ShowString(2,1,"CH1=");
-		ShowNum(2,5,FDC_GetCH(1));
-
-		LED1=!LED1;
-		delay_ms(100);
+		ShowNum(1,5,Get_Key());
 	}
 }

@@ -3,8 +3,8 @@
 
 #include "sys.h"
 
-#define LED0 PBout(5)
-#define LED1 PEout(5)
+#define LED0 PDout(13)
+#define LED1 PDout(14)
 
 void LED_Initial(void);
 
