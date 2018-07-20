@@ -29,3 +29,4 @@
 .\objects\main.o: ..\LIB\lcd\stm32f10x_fsmc.h
 .\objects\main.o: ..\BSP\display\display.h
 .\objects\main.o: ..\LIB\key\key.h
+.\objects\main.o: ..\LIB\DataScope_DP\DataScope_DP.h

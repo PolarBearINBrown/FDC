@@ -25,6 +25,8 @@ void Check_Win(void)
 		int Tmp=Get_Key();
 		if(Tmp==Ok)
 		{
+			Get_Weight();
+			Get_Level();
 			break;
 		}
 		Get_Level();

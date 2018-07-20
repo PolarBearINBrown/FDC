@@ -336,7 +336,7 @@
               <MiscControls></MiscControls>
               <Define>MyObject</Define>
               <Undefine></Undefine>
-              <IncludePath>..\USER;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\LIB\break;..\LIB\fdc2x14;..\LIB\key;..\LIB\iic;..\LIB\led;..\LIB\pid;..\LIB\motor;..\LIB\lcd;..\BSP\pretreat;..\BSP\display</IncludePath>
+              <IncludePath>..\USER;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\LIB\break;..\LIB\fdc2x14;..\LIB\key;..\LIB\iic;..\LIB\led;..\LIB\pid;..\LIB\motor;..\LIB\lcd;..\LIB\DataScope_DP;..\BSP\pretreat;..\BSP\display</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -529,6 +529,16 @@
               <FileName>key.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\LIB\key\key.h</FilePath>
+            </File>
+            <File>
+              <FileName>DataScope_DP.C</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\LIB\DataScope_DP\DataScope_DP.C</FilePath>
+            </File>
+            <File>
+              <FileName>DataScope_DP.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\LIB\DataScope_DP\DataScope_DP.h</FilePath>
             </File>
           </Files>
         </Group>

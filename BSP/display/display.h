@@ -5,6 +5,7 @@
 #include "key.h"
 #include "headers.h"
 #include "FDC2X14.h"
+#include "pretreat.h"
 
 extern void Main_Win(void);
 
