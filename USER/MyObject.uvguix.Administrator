@@ -100,8 +100,8 @@
     <MDIClientArea>
       <RegID>0</RegID>
       <MDITabState>
-        <Len>538</Len>
-        <Data>01000000040000000100000001000000010000000100000000000000020000000000000001000000010000000000000028000000280000000100000005000000000000000100000038433A5C55736572735C41646D696E6973747261746F725C4465736B746F705C4644435C4253505C646973706C61795C646973706C61792E630000000009646973706C61792E6300000000BECEA100FFFFFFFF2E433A5C55736572735C41646D696E6973747261746F725C4465736B746F705C4644435C555345525C6D61696E2E6300000000066D61696E2E6300000000FFDC7800FFFFFFFF30433A5C55736572735C41646D696E6973747261746F725C4465736B746F705C4644435C4C49425C6B65795C6B65792E6800000000056B65792E6800000000BECEA100FFFFFFFF30433A5C55736572735C41646D696E6973747261746F725C4465736B746F705C4644435C4C49425C6B65795C6B65792E6300000000056B65792E6300000000F0A0A100FFFFFFFF30433A5C55736572735C41646D696E6973747261746F725C4465736B746F705C4644435C4C49425C6C63645C6C63642E6300000000056C63642E6300000000BCA8E100FFFFFFFF0100000010000000C5D4F200FFDC7800BECEA100F0A0A100BCA8E1009CC1B600F7B88600D9ADC200A5C2D700B3A6BE00EAD6A300F6FA7D00B5E99D005FC3CF00C1838300CACAD5000100000000000000020000002C01000065000000560500005D020000</Data>
+        <Len>411</Len>
+        <Data>0100000004000000010000000100000001000000010000000000000002000000000000000100000001000000000000002800000028000000010000000300000001000000010000002E433A5C55736572735C41646D696E6973747261746F725C4465736B746F705C4644435C555345525C6D61696E2E6300000000066D61696E2E6300000000FFDC7800FFFFFFFF3A433A5C55736572735C41646D696E6973747261746F725C4465736B746F705C4644435C4253505C70726574726561745C70726574726561742E63000000000A70726574726561742E6300000000F6FA7D00FFFFFFFF38433A5C55736572735C41646D696E6973747261746F725C4465736B746F705C4644435C4C49425C666463327831345C464443325831342E630000000009464443325831342E6300000000BECEA100FFFFFFFF0100000010000000C5D4F200FFDC7800BECEA100F0A0A100BCA8E1009CC1B600F7B88600D9ADC200A5C2D700B3A6BE00EAD6A300F6FA7D00B5E99D005FC3CF00C1838300CACAD5000100000000000000020000002C01000065000000560500005D020000</Data>
       </MDITabState>
     </MDIClientArea>
     <ViewEx>
@@ -516,7 +516,7 @@
         <IsActivated>0</IsActivated>
         <MRUWidth>32767</MRUWidth>
         <PinState>0</PinState>
-        <RecentFrameAlignment>4096</RecentFrameAlignment>
+        <RecentFrameAlignment>32768</RecentFrameAlignment>
         <RecentRowIndex>0</RecentRowIndex>
         <RectRecentDocked>
           <Len>16</Len>
@@ -1136,7 +1136,7 @@
         <IsActivated>0</IsActivated>
         <MRUWidth>32767</MRUWidth>
         <PinState>0</PinState>
-        <RecentFrameAlignment>4096</RecentFrameAlignment>
+        <RecentFrameAlignment>32768</RecentFrameAlignment>
         <RecentRowIndex>0</RecentRowIndex>
         <RectRecentDocked>
           <Len>16</Len>
@@ -1156,7 +1156,7 @@
         <IsActivated>0</IsActivated>
         <MRUWidth>32767</MRUWidth>
         <PinState>0</PinState>
-        <RecentFrameAlignment>4096</RecentFrameAlignment>
+        <RecentFrameAlignment>32768</RecentFrameAlignment>
         <RecentRowIndex>0</RecentRowIndex>
         <RectRecentDocked>
           <Len>16</Len>
@@ -1216,7 +1216,7 @@
         <IsActivated>0</IsActivated>
         <MRUWidth>32767</MRUWidth>
         <PinState>0</PinState>
-        <RecentFrameAlignment>4096</RecentFrameAlignment>
+        <RecentFrameAlignment>32768</RecentFrameAlignment>
         <RecentRowIndex>0</RecentRowIndex>
         <RectRecentDocked>
           <Len>16</Len>
@@ -1236,7 +1236,7 @@
         <IsActivated>0</IsActivated>
         <MRUWidth>32767</MRUWidth>
         <PinState>0</PinState>
-        <RecentFrameAlignment>4096</RecentFrameAlignment>
+        <RecentFrameAlignment>32768</RecentFrameAlignment>
         <RecentRowIndex>0</RecentRowIndex>
         <RectRecentDocked>
           <Len>16</Len>
@@ -1320,17 +1320,17 @@
         <RecentRowIndex>0</RecentRowIndex>
         <RectRecentDocked>
           <Len>16</Len>
-          <Data>4A03000066000000EE03000054010000</Data>
+          <Data>03000000780200000300000078020000</Data>
         </RectRecentDocked>
         <RectRecentFloat>
           <Len>16</Len>
-          <Data>3A00000050000000E4000000DD000000</Data>
+          <Data>0A0000000A0000006E0000006E000000</Data>
         </RectRecentFloat>
       </Window>
       <Window>
         <RegID>50004</RegID>
         <PaneID>50004</PaneID>
-        <IsVisible>0</IsVisible>
+        <IsVisible>1</IsVisible>
         <IsFloating>0</IsFloating>
         <IsTabbed>0</IsTabbed>
         <IsActivated>0</IsActivated>
@@ -1340,17 +1340,17 @@
         <RecentRowIndex>0</RecentRowIndex>
         <RectRecentDocked>
           <Len>16</Len>
-          <Data>4A03000066000000EE03000054010000</Data>
+          <Data>01000000780200005305000093020000</Data>
         </RectRecentDocked>
         <RectRecentFloat>
           <Len>16</Len>
-          <Data>3A00000050000000E4000000DD000000</Data>
+          <Data>0A0000000A0000006E0000006E000000</Data>
         </RectRecentFloat>
       </Window>
       <Window>
         <RegID>50005</RegID>
         <PaneID>50005</PaneID>
-        <IsVisible>0</IsVisible>
+        <IsVisible>1</IsVisible>
         <IsFloating>0</IsFloating>
         <IsTabbed>0</IsTabbed>
         <IsActivated>0</IsActivated>
@@ -1360,17 +1360,17 @@
         <RecentRowIndex>0</RecentRowIndex>
         <RectRecentDocked>
           <Len>16</Len>
-          <Data>4A03000066000000EE03000054010000</Data>
+          <Data>0100000062020000530500007D020000</Data>
         </RectRecentDocked>
         <RectRecentFloat>
           <Len>16</Len>
-          <Data>3A00000050000000E4000000DD000000</Data>
+          <Data>0A0000000A0000006E0000006E000000</Data>
         </RectRecentFloat>
       </Window>
       <Window>
         <RegID>50006</RegID>
         <PaneID>50006</PaneID>
-        <IsVisible>0</IsVisible>
+        <IsVisible>1</IsVisible>
         <IsFloating>0</IsFloating>
         <IsTabbed>0</IsTabbed>
         <IsActivated>0</IsActivated>
@@ -1380,11 +1380,11 @@
         <RecentRowIndex>0</RecentRowIndex>
         <RectRecentDocked>
           <Len>16</Len>
-          <Data>4A03000066000000EE03000054010000</Data>
+          <Data>480300007C000000EE03000097000000</Data>
         </RectRecentDocked>
         <RectRecentFloat>
           <Len>16</Len>
-          <Data>3A00000050000000E4000000DD000000</Data>
+          <Data>0A0000000A0000006E0000006E000000</Data>
         </RectRecentFloat>
       </Window>
       <Window>
@@ -1400,11 +1400,11 @@
         <RecentRowIndex>0</RecentRowIndex>
         <RectRecentDocked>
           <Len>16</Len>
-          <Data>4A03000066000000EE03000054010000</Data>
+          <Data>030000008D010000AD000000A8010000</Data>
         </RectRecentDocked>
         <RectRecentFloat>
           <Len>16</Len>
-          <Data>3A00000050000000E4000000DD000000</Data>
+          <Data>0A0000000A0000006E0000006E000000</Data>
         </RectRecentFloat>
       </Window>
       <Window>
@@ -1420,11 +1420,11 @@
         <RecentRowIndex>0</RecentRowIndex>
         <RectRecentDocked>
           <Len>16</Len>
-          <Data>4A03000066000000EE03000054010000</Data>
+          <Data>030000008D010000AD000000A8010000</Data>
         </RectRecentDocked>
         <RectRecentFloat>
           <Len>16</Len>
-          <Data>3A00000050000000E4000000DD000000</Data>
+          <Data>0A0000000A0000006E0000006E000000</Data>
         </RectRecentFloat>
       </Window>
       <Window>
@@ -1450,7 +1450,7 @@
       <Window>
         <RegID>50010</RegID>
         <PaneID>50010</PaneID>
-        <IsVisible>0</IsVisible>
+        <IsVisible>1</IsVisible>
         <IsFloating>0</IsFloating>
         <IsTabbed>0</IsTabbed>
         <IsActivated>0</IsActivated>
@@ -1460,11 +1460,11 @@
         <RecentRowIndex>0</RecentRowIndex>
         <RectRecentDocked>
           <Len>16</Len>
-          <Data>4A03000066000000EE03000054010000</Data>
+          <Data>010000008D010000EE030000A8010000</Data>
         </RectRecentDocked>
         <RectRecentFloat>
           <Len>16</Len>
-          <Data>3A00000050000000E4000000DD000000</Data>
+          <Data>0A0000000A0000006E0000006E000000</Data>
         </RectRecentFloat>
       </Window>
       <Window>
@@ -1490,7 +1490,7 @@
       <Window>
         <RegID>50012</RegID>
         <PaneID>50012</PaneID>
-        <IsVisible>0</IsVisible>
+        <IsVisible>1</IsVisible>
         <IsFloating>0</IsFloating>
         <IsTabbed>0</IsTabbed>
         <IsActivated>0</IsActivated>
@@ -1500,11 +1500,11 @@
         <RecentRowIndex>0</RecentRowIndex>
         <RectRecentDocked>
           <Len>16</Len>
-          <Data>4A03000066000000EE03000054010000</Data>
+          <Data>010000008D010000EE030000A8010000</Data>
         </RectRecentDocked>
         <RectRecentFloat>
           <Len>16</Len>
-          <Data>3A00000050000000E4000000DD000000</Data>
+          <Data>0A0000000A0000006E0000006E000000</Data>
         </RectRecentFloat>
       </Window>
       <Window>
@@ -1520,11 +1520,11 @@
         <RecentRowIndex>0</RecentRowIndex>
         <RectRecentDocked>
           <Len>16</Len>
-          <Data>4A03000066000000EE03000054010000</Data>
+          <Data>030000008D010000030000008D010000</Data>
         </RectRecentDocked>
         <RectRecentFloat>
           <Len>16</Len>
-          <Data>3A00000050000000E4000000DD000000</Data>
+          <Data>0A0000000A0000006E0000006E000000</Data>
         </RectRecentFloat>
       </Window>
       <Window>
@@ -1540,17 +1540,17 @@
         <RecentRowIndex>0</RecentRowIndex>
         <RectRecentDocked>
           <Len>16</Len>
-          <Data>4A03000066000000EE03000054010000</Data>
+          <Data>030000008D010000AD000000A8010000</Data>
         </RectRecentDocked>
         <RectRecentFloat>
           <Len>16</Len>
-          <Data>3A00000050000000E4000000DD000000</Data>
+          <Data>0A0000000A0000006E0000006E000000</Data>
         </RectRecentFloat>
       </Window>
       <Window>
         <RegID>50015</RegID>
         <PaneID>50015</PaneID>
-        <IsVisible>0</IsVisible>
+        <IsVisible>1</IsVisible>
         <IsFloating>0</IsFloating>
         <IsTabbed>0</IsTabbed>
         <IsActivated>0</IsActivated>
@@ -1560,11 +1560,11 @@
         <RecentRowIndex>0</RecentRowIndex>
         <RectRecentDocked>
           <Len>16</Len>
-          <Data>4A03000066000000EE03000054010000</Data>
+          <Data>480300007C000000EE03000097000000</Data>
         </RectRecentDocked>
         <RectRecentFloat>
           <Len>16</Len>
-          <Data>3A00000050000000E4000000DD000000</Data>
+          <Data>0A0000000A0000006E0000006E000000</Data>
         </RectRecentFloat>
       </Window>
       <Window>
@@ -1812,48 +1812,30 @@
     <ActiveMDIGroup>0</ActiveMDIGroup>
     <MDIGroup>
       <Size>100</Size>
-      <ActiveTab>0</ActiveTab>
-      <Doc>
-        <Name>..\BSP\display\display.c</Name>
-        <ColumnNumber>18</ColumnNumber>
-        <TopLine>1</TopLine>
-        <CurrentLine>27</CurrentLine>
-        <Folding>1</Folding>
-        <ContractedFolders></ContractedFolders>
-        <PaneID>0</PaneID>
-      </Doc>
+      <ActiveTab>1</ActiveTab>
       <Doc>
         <Name>.\main.c</Name>
-        <ColumnNumber>16</ColumnNumber>
-        <TopLine>13</TopLine>
-        <CurrentLine>6</CurrentLine>
+        <ColumnNumber>3</ColumnNumber>
+        <TopLine>47</TopLine>
+        <CurrentLine>53</CurrentLine>
         <Folding>1</Folding>
         <ContractedFolders></ContractedFolders>
         <PaneID>0</PaneID>
       </Doc>
       <Doc>
-        <Name>..\LIB\key\key.h</Name>
-        <ColumnNumber>0</ColumnNumber>
-        <TopLine>1</TopLine>
-        <CurrentLine>1</CurrentLine>
+        <Name>..\BSP\pretreat\pretreat.c</Name>
+        <ColumnNumber>31</ColumnNumber>
+        <TopLine>30</TopLine>
+        <CurrentLine>54</CurrentLine>
         <Folding>1</Folding>
         <ContractedFolders></ContractedFolders>
         <PaneID>0</PaneID>
       </Doc>
       <Doc>
-        <Name>..\LIB\key\key.c</Name>
-        <ColumnNumber>17</ColumnNumber>
-        <TopLine>1</TopLine>
-        <CurrentLine>7</CurrentLine>
-        <Folding>1</Folding>
-        <ContractedFolders></ContractedFolders>
-        <PaneID>0</PaneID>
-      </Doc>
-      <Doc>
-        <Name>..\LIB\lcd\lcd.c</Name>
-        <ColumnNumber>0</ColumnNumber>
-        <TopLine>1</TopLine>
-        <CurrentLine>1</CurrentLine>
+        <Name>..\LIB\fdc2x14\FDC2X14.c</Name>
+        <ColumnNumber>21</ColumnNumber>
+        <TopLine>262</TopLine>
+        <CurrentLine>265</CurrentLine>
         <Folding>1</Folding>
         <ContractedFolders></ContractedFolders>
         <PaneID>0</PaneID>

@@ -18,3 +18,10 @@
 .\objects\pretreat.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h
 .\objects\pretreat.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h
 .\objects\pretreat.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\misc.h
+.\objects\pretreat.o: ..\USER\headers.h
+.\objects\pretreat.o: ..\SYSTEM\delay\delay.h
+.\objects\pretreat.o: ..\SYSTEM\usart\usart.h
+.\objects\pretreat.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\pretreat.o: ..\LIB\lcd\lcd.h
+.\objects\pretreat.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\pretreat.o: ..\LIB\lcd\stm32f10x_fsmc.h

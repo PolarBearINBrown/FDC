@@ -4,7 +4,7 @@
 #include "headers.h"
 
 #define FullSpeed 1000
-#define M1_Dir1 PDout(15)
+#define M1_Dir1 PAout(8)
 #define M1_Dir2 PGout(2)
 #define M2_Dir1 PGout(3)
 #define M2_Dir2 PGout(4)

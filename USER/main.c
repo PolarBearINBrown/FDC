@@ -1,10 +1,8 @@
 #include "headers.h"
-#include "led.h"
 #include "myiic.h"
+#include "myiic2.h"
 #include "FDC2X14.h"
 #include "pretreat.h"
-#include "pid.h"
-#include "motor.h"
 #include "display.h"
 
 int min(int a,int b)
@@ -17,6 +15,18 @@ int max(int a,int b)
 	return a>b? a:b;
 }
 
+int abs(int a)
+{
+	if(a<0)
+	{
+		return -a;
+	}
+	else
+	{
+		return a;
+	}
+}
+
 int Mode;
 int Mode_Size;
 
@@ -27,26 +37,37 @@ void System_Initial(void)
 	delay_init();
 	uart_init(115200);
 	IIC_Init();
+	IIC2_Init();
 	FDC2X14_Init();
-	LED_Initial();
-	PID_Initial();
-	Motor_Initial();
 	LCD_Init();
 	Key_Initial();
+	
 }
 
 int main()
 {
 	System_Initial();
 	POINT_COLOR=BLACK;
-	Main_Win();
-	ShowString(1,1,"Key=0");
+	int Tmp=0;
 	while(1)
 	{
-		int Tmp=Get_Key();
-		if(Tmp)
+		Main_Win();
+		while(1)
 		{
-			ShowNum(1,5,Tmp);
+			Tmp=Get_Key();
+			if(Tmp)
+			{
+				Get_Error();
+			}
+			Get_Read();
+			ShowNum(1,3,Read0);
+			ShowNum(2,3,Read1);
+			ShowNum(3,3,Read2);
+			ShowNum(4,3,Read3);
+			ShowNum(5,3,Read4);
+			ShowNum(6,3,Read5);
+			ShowNum(7,3,Read6);
+			ShowNum(8,3,Read7);
 		}
 	}
 }

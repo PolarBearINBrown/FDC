@@ -25,4 +25,4 @@
 .\objects\display.o: ..\SYSTEM\delay\delay.h
 .\objects\display.o: ..\SYSTEM\usart\usart.h
 .\objects\display.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\display.o: ..\LIB\pid\pid.h
+.\objects\display.o: ..\LIB\fdc2x14\FDC2X14.h

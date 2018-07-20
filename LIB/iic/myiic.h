@@ -2,16 +2,15 @@
 #define __MYIIC_H
 #include "sys.h"
 
-#define SDA_IN()  {GPIOB->CRH&=0XFFFF0FFF;GPIOB->CRH|=8<<12;}
-#define SDA_OUT() {GPIOB->CRH&=0XFFFF0FFF;GPIOB->CRH|=3<<12;}
+#if defined MYIIC_C
+#define SDA_IN()  {GPIOB->CRH&=0XFFFF0FFF;GPIOB->CRH|=(u32)8<<12;}
+#define SDA_OUT() {GPIOB->CRH&=0XFFFF0FFF;GPIOB->CRH|=(u32)3<<12;}
+
 //IO操作函数	 
 #define IIC_SCL    PBout(10) //SCL
 #define IIC_SDA    PBout(11) //SDA	 
 #define READ_SDA   PBin(11)  //输入SDA 
 
-#if defined MYIIC_C
-int Velocity;                       //倾角输出*1000
-u32 tempVel;
 //IIC所有操作函数
 void IIC_Init(void);                //初始化IIC的IO口				 
 void IIC_Start(void);				//发送IIC开始信号

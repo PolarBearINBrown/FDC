@@ -451,6 +451,16 @@
               <FilePath>..\LIB\iic\myiic.h</FilePath>
             </File>
             <File>
+              <FileName>myiic2.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\LIB\iic\myiic2.c</FilePath>
+            </File>
+            <File>
+              <FileName>myiic2.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\LIB\iic\myiic2.h</FilePath>
+            </File>
+            <File>
               <FileName>led.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\LIB\led\led.c</FilePath>

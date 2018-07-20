@@ -1532,16 +1532,16 @@ void ShowNum(int Line,int Column,int num)
 	}
 	if(num<0)
 	{
-		ShowString(Line,Column,"-         ");
+		ShowString(Line,Column,"-          ");
 		LCD_ShowNum(Column*8+18,Line*20,-num,ans,16);
 	}
 	else if(num==0)
 	{
-		ShowString(Line,Column,"0         ");
+		ShowString(Line,Column,"0          ");
 	}
 	else
 	{
-		ShowString(Line,Column,"         ");
+		ShowString(Line,Column,"          ");
 		LCD_ShowNum(Column*8+10,Line*20,num,ans,16); 
 	}
 }

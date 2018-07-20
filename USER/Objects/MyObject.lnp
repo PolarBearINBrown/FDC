@@ -5,6 +5,7 @@
 ".\objects\usart.o"
 ".\objects\fdc2x14.o"
 ".\objects\myiic.o"
+".\objects\myiic2.o"
 ".\objects\led.o"
 ".\objects\pid.o"
 ".\objects\motor.o"

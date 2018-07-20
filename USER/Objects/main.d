@@ -20,14 +20,12 @@
 .\objects\main.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\misc.h
 .\objects\main.o: ..\SYSTEM\usart\usart.h
 .\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\main.o: ..\LIB\led\led.h
 .\objects\main.o: ..\LIB\iic\myiic.h
+.\objects\main.o: ..\LIB\iic\myiic2.h
 .\objects\main.o: ..\LIB\fdc2x14\FDC2X14.h
 .\objects\main.o: ..\BSP\pretreat\pretreat.h
-.\objects\main.o: ..\LIB\pid\pid.h
-.\objects\main.o: ..\LIB\motor\motor.h
-.\objects\main.o: ..\BSP\display\display.h
 .\objects\main.o: ..\LIB\lcd\lcd.h
 .\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 .\objects\main.o: ..\LIB\lcd\stm32f10x_fsmc.h
+.\objects\main.o: ..\BSP\display\display.h
 .\objects\main.o: ..\LIB\key\key.h

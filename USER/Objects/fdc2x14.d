@@ -18,4 +18,5 @@
 .\objects\fdc2x14.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\misc.h
 .\objects\fdc2x14.o: ..\LIB\fdc2x14\FDC2X14.h
 .\objects\fdc2x14.o: ..\LIB\iic\myiic.h
+.\objects\fdc2x14.o: ..\LIB\iic\myiic2.h
 .\objects\fdc2x14.o: ..\SYSTEM\delay\delay.h

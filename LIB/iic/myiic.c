@@ -17,8 +17,8 @@ void IIC_Init(void)
 
 //I2C延时
 void ADS_delay(void) 
-{  
-  unsigned char i;    
+{
+  unsigned char i;
   for(i=0;i<40;i++); 
 }
 
@@ -73,32 +73,22 @@ u8 IIC_Wait_Ack(void)
 	}
 	IIC_SCL=0;//时钟输出0 	   
 	return 0;  
-// 	unsigned int i; 
-//   SDA_IN();      //SDA设置为输入 
-//   ADS_delay(); 
-//   IIC_SCL=1; 
-//   i=0xF0; 
-//   do 
-//   { 
-//   } 
-//   while(--i!=0); 
-//   IIC_SCL=0;//时钟输出0 	 
-// 	return 0;  
-} 
+}
+
 //产生ACK应答
 void IIC_Ack(void)
 {
-	ADS_delay(); 
+	ADS_delay();
 // 	IIC_SCL=0;
 	SDA_OUT();
 	IIC_SDA=0;
-	ADS_delay(); 
+	ADS_delay();
 	IIC_SCL=1;
-	ADS_delay(); 
+	ADS_delay();
 	IIC_SCL=0;
-	ADS_delay(); 
+	ADS_delay();
 }
-//不产生ACK应答		    
+//不产生ACK应答
 void IIC_NAck(void)
 {
 	IIC_SCL=0;
@@ -175,34 +165,6 @@ unsigned int ReadDataCfgReg(u8 index,u8 firstAddress,u8 SecondAddress)
   
 	
   IIC_Stop();
-  temp = (int)(((result[0] << 24) | (result[1] << 16) | (result[2] << 8) | (result[3] & 0xff)));  
-  return(temp); 
-     
+  temp = (int)(((result[0] << 24) | (result[1] << 16) | (result[2] << 8) | (result[3] & 0xff)));
+  return(temp);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
