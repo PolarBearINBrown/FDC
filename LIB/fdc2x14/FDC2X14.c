@@ -44,7 +44,7 @@
 #define MANUFACTURER_ID 0x7E
 #define DEVICE_ID 0x7F
 
-int Error0,Error1,Error2,Error3,Error4,Error5,Error6,Error7;
+int Error[8];
 
 void WriteRegfdc2214(unsigned char add,unsigned int value)
 {
@@ -184,16 +184,24 @@ int ReadFDC2X14_2(u8 firstAddress,u8 secondAddress)
 	return(temp); 
 }
 
-void Get_Error(void)
+//void Get_Error(void)
+//{
+//	Error[0]=ReadFDC2X14(DATA_CH0,DATA_LSB_CH0);
+//	Error[1]=ReadFDC2X14(DATA_CH1,DATA_LSB_CH1);
+//	Error[2]=ReadFDC2X14(DATA_CH2,DATA_LSB_CH2);
+//	Error[3]=ReadFDC2X14(DATA_CH3,DATA_LSB_CH3);
+//	Error[4]=ReadFDC2X14_2(DATA_CH0,DATA_LSB_CH0);
+//	Error[5]=ReadFDC2X14_2(DATA_CH1,DATA_LSB_CH1);
+//	Error[6]=ReadFDC2X14_2(DATA_CH2,DATA_LSB_CH2);
+//	Error[7]=ReadFDC2X14_2(DATA_CH3,DATA_LSB_CH3);
+//}
+
+void Set_Error(void)
 {
-	Error0=ReadFDC2X14(DATA_CH0,DATA_LSB_CH0);
-	Error1=ReadFDC2X14(DATA_CH1,DATA_LSB_CH1);
-	Error2=ReadFDC2X14(DATA_CH2,DATA_LSB_CH2);
-	Error3=ReadFDC2X14(DATA_CH3,DATA_LSB_CH3);
-	Error4=ReadFDC2X14_2(DATA_CH0,DATA_LSB_CH0);
-	Error5=ReadFDC2X14_2(DATA_CH1,DATA_LSB_CH1);
-	Error6=ReadFDC2X14_2(DATA_CH2,DATA_LSB_CH2);
-	Error7=ReadFDC2X14_2(DATA_CH3,DATA_LSB_CH3);
+	for(int i=0;i<8;i++)
+	{
+		Error[i]=0;
+	}
 }
 
 void FDC2X14_Init(void)//Ë«Í¨µÀ
@@ -259,7 +267,31 @@ void FDC2X14_Init(void)//Ë«Í¨µÀ
 
 	WriteRegfdc2214_2(0x1A,0x1C81);//ÅäÖÃ¼Ä´æÆ÷
 	
-	Get_Error();
+	Set_Error();
+}
+
+int FDC_ClearCH(u8 index)
+{
+	switch(index)
+	{
+		case 0x00:
+			return ReadFDC2X14(DATA_CH0,DATA_LSB_CH0);
+		case 0x01:
+			return ReadFDC2X14(DATA_CH1,DATA_LSB_CH1);
+		case 0x02:
+			return ReadFDC2X14(DATA_CH2,DATA_LSB_CH2);
+		case 0x03:
+			return ReadFDC2X14(DATA_CH3,DATA_LSB_CH3);
+		case 0x04:
+			return ReadFDC2X14_2(DATA_CH0,DATA_LSB_CH0);
+		case 0x05:
+			return ReadFDC2X14_2(DATA_CH1,DATA_LSB_CH1);
+		case 0x06:
+			return ReadFDC2X14_2(DATA_CH2,DATA_LSB_CH2);
+		case 0x07:
+			return ReadFDC2X14_2(DATA_CH3,DATA_LSB_CH3);
+	}
+	return -1;
 }
 
 int FDC_GetCH(u8 index)
@@ -267,21 +299,21 @@ int FDC_GetCH(u8 index)
 	switch(index)
 	{
 		case 0x00:
-			return (ReadFDC2X14(DATA_CH0,DATA_LSB_CH0)-Error0)/-100;
+			return (ReadFDC2X14(DATA_CH0,DATA_LSB_CH0)-Error[0])/-100;
 		case 0x01:
-			return (ReadFDC2X14(DATA_CH1,DATA_LSB_CH1)-Error1)/-100;
+			return (ReadFDC2X14(DATA_CH1,DATA_LSB_CH1)-Error[1])/-100;
 		case 0x02:
-			return (ReadFDC2X14(DATA_CH2,DATA_LSB_CH2)-Error2)/-100;
+			return (ReadFDC2X14(DATA_CH2,DATA_LSB_CH2)-Error[2])/-100;
 		case 0x03:
-			return (ReadFDC2X14(DATA_CH3,DATA_LSB_CH3)-Error3)/-100;
+			return (ReadFDC2X14(DATA_CH3,DATA_LSB_CH3)-Error[3])/-100;
 		case 0x04:
-			return (ReadFDC2X14_2(DATA_CH0,DATA_LSB_CH0)-Error4)/-100;
+			return (ReadFDC2X14_2(DATA_CH0,DATA_LSB_CH0)-Error[4])/-100;
 		case 0x05:
-			return (ReadFDC2X14_2(DATA_CH1,DATA_LSB_CH1)-Error5)/-100;
+			return (ReadFDC2X14_2(DATA_CH1,DATA_LSB_CH1)-Error[5])/-100;
 		case 0x06:
-			return (ReadFDC2X14_2(DATA_CH2,DATA_LSB_CH2)-Error6)/-100;
+			return (ReadFDC2X14_2(DATA_CH2,DATA_LSB_CH2)-Error[6])/-100;
 		case 0x07:
-			return (ReadFDC2X14_2(DATA_CH3,DATA_LSB_CH3)-Error7)/-100;
+			return (ReadFDC2X14_2(DATA_CH3,DATA_LSB_CH3)-Error[7])/-100;
 	}
 	return -1;
 }

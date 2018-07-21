@@ -12,7 +12,6 @@ extern int Mode_Size;
 extern int  min(int a,int b);
 extern int  max(int a,int b);
 extern int  abs(int a);
-extern void Get_Level(void);
 
 /***************************
 

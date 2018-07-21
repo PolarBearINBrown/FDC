@@ -8,5 +8,6 @@
 #include "pretreat.h"
 
 extern void Main_Win(void);
+extern void Check_Win(void);
 
 #endif

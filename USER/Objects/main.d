@@ -30,3 +30,4 @@
 .\objects\main.o: ..\BSP\display\display.h
 .\objects\main.o: ..\LIB\key\key.h
 .\objects\main.o: ..\LIB\DataScope_DP\DataScope_DP.h
+.\objects\main.o: ..\BSP\part1\part1.h

@@ -336,7 +336,7 @@
               <MiscControls></MiscControls>
               <Define>MyObject</Define>
               <Undefine></Undefine>
-              <IncludePath>..\USER;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\LIB\break;..\LIB\fdc2x14;..\LIB\key;..\LIB\iic;..\LIB\led;..\LIB\pid;..\LIB\motor;..\LIB\lcd;..\LIB\DataScope_DP;..\BSP\pretreat;..\BSP\display</IncludePath>
+              <IncludePath>..\USER;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\LIB\break;..\LIB\fdc2x14;..\LIB\key;..\LIB\iic;..\LIB\led;..\LIB\pid;..\LIB\motor;..\LIB\lcd;..\LIB\DataScope_DP;..\BSP\pretreat;..\BSP\display;..\BSP\part1</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -461,46 +461,6 @@
               <FilePath>..\LIB\iic\myiic2.h</FilePath>
             </File>
             <File>
-              <FileName>led.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\LIB\led\led.c</FilePath>
-            </File>
-            <File>
-              <FileName>led.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\LIB\led\led.h</FilePath>
-            </File>
-            <File>
-              <FileName>pid.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\LIB\pid\pid.c</FilePath>
-            </File>
-            <File>
-              <FileName>pid.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\LIB\pid\pid.h</FilePath>
-            </File>
-            <File>
-              <FileName>motor.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\LIB\motor\motor.c</FilePath>
-            </File>
-            <File>
-              <FileName>motor.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\LIB\motor\motor.h</FilePath>
-            </File>
-            <File>
-              <FileName>break.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\LIB\break\break.c</FilePath>
-            </File>
-            <File>
-              <FileName>break.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\LIB\break\break.h</FilePath>
-            </File>
-            <File>
               <FileName>lcd.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\LIB\lcd\lcd.c</FilePath>
@@ -564,6 +524,16 @@
               <FileName>display.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\BSP\display\display.h</FilePath>
+            </File>
+            <File>
+              <FileName>part1.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\BSP\part1\part1.c</FilePath>
+            </File>
+            <File>
+              <FileName>part1.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\BSP\part1\part1.h</FilePath>
             </File>
           </Files>
         </Group>

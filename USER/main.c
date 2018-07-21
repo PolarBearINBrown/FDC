@@ -5,6 +5,7 @@
 #include "pretreat.h"
 #include "display.h"
 #include "DataScope_DP.h"
+#include "part1.h"
 
 int min(int a,int b)
 {
@@ -65,25 +66,40 @@ void DataScope(void)
 int main()
 {
 	System_Initial();
-	int Tmp=1;
+	int Tmp=0;
 	while(1)
 	{
 		Main_Win();
-		Get_Error();
-		while(1)
+		if(Mode==0)
 		{
-			if(Tmp==Ok)
+			while(1)
 			{
-				Pretreat_Initial();
-				break;
+				if(Tmp==Ok)
+				{
+					Pretreat_Initial();
+					Tmp=0;
+					break;
+				}
+				else if(Tmp)
+				{
+					Get_Error();
+				}
+				Tmp=Get_Key();
+				Get_AverageCH();
+				DataScope();//œ‘ æ”√
 			}
-			else if(Tmp)
-			{
-				Get_Error();
-			}
-			Tmp=Get_Key();
-			Get_AverageCH();
-			DataScope();
+		}
+		else if(Mode==1)
+		{
+			Part1_Start();
+		}
+		else if(Mode==2)
+		{
+			Check_Win();
+		}
+		else if(Mode==3)
+		{
+			
 		}
 	}
 }
