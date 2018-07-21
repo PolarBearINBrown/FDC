@@ -48,13 +48,13 @@ void System_Initial(void)
 void DataScope(void)
 {
 	int Sum=0;
-  for(int i=0;i<6;i++)
+  for(int i=1;i<8;i++)
 	{
 		DataScope_Get_Channel_Data(Ave[i],i+1);
 		Sum+=Ave[i];
 	}
-	DataScope_Get_Channel_Data(Sum,7);
-	int Send_Count = DataScope_Data_Generate(7);
+	DataScope_Get_Channel_Data(Sum,1);
+	int Send_Count = DataScope_Data_Generate(8);
 	for(int i=0;i<Send_Count;i++) 
 	{
 		while((USART1->SR&0X40)==0);  
@@ -72,7 +72,12 @@ int main()
 		Get_Error();
 		while(1)
 		{
-			if(Tmp)
+			if(Tmp==Ok)
+			{
+				Pretreat_Initial();
+				break;
+			}
+			else if(Tmp)
 			{
 				Get_Error();
 			}

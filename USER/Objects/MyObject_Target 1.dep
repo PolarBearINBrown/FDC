@@ -1,5 +1,5 @@
 Dependencies for Project 'MyObject', Target 'Target 1': (DO NOT MODIFY !)
-F (.\main.c)(0x5B51F877)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\LIB\break -I ..\LIB\fdc2x14 -I ..\LIB\key -I ..\LIB\iic -I ..\LIB\led -I ..\LIB\pid -I ..\LIB\motor -I ..\LIB\lcd -I ..\LIB\DataScope_DP -I ..\BSP\pretreat -I ..\BSP\display-I.\RTE\Device\STM32F103ZE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_HD -DMyObject-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (.\main.c)(0x5B529BD7)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\LIB\break -I ..\LIB\fdc2x14 -I ..\LIB\key -I ..\LIB\iic -I ..\LIB\led -I ..\LIB\pid -I ..\LIB\motor -I ..\LIB\lcd -I ..\LIB\DataScope_DP -I ..\BSP\pretreat -I ..\BSP\display-I.\RTE\Device\STM32F103ZE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_HD -DMyObject-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (headers.h)(0x5B517E2A)
 I (..\SYSTEM\delay\delay.h)(0x555AC82B)
 I (..\SYSTEM\sys\sys.h)(0x550F951B)
@@ -23,7 +23,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
 I (..\LIB\iic\myiic.h)(0x5B5168ED)
 I (..\LIB\iic\myiic2.h)(0x5B51A692)
 I (..\LIB\fdc2x14\FDC2X14.h)(0x5B517A34)
-I (..\BSP\pretreat\pretreat.h)(0x5B51EA26)
+I (..\BSP\pretreat\pretreat.h)(0x5B52AA87)
 I (..\LIB\lcd\lcd.h)(0x5B4EF146)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
 I (..\LIB\lcd\stm32f10x_fsmc.h)(0x50388DDC)
@@ -307,8 +307,8 @@ F (..\LIB\key\key.h)(0x5B4EEF63)()
 F (..\LIB\DataScope_DP\DataScope_DP.C)(0x5B51BC11)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\LIB\break -I ..\LIB\fdc2x14 -I ..\LIB\key -I ..\LIB\iic -I ..\LIB\led -I ..\LIB\pid -I ..\LIB\motor -I ..\LIB\lcd -I ..\LIB\DataScope_DP -I ..\BSP\pretreat -I ..\BSP\display-I.\RTE\Device\STM32F103ZE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_HD -DMyObject-o .\objects\datascope_dp.o --omf_browse .\objects\datascope_dp.crf --depend .\objects\datascope_dp.d)
 I (..\LIB\DataScope_DP\DataScope_DP.h)(0x5B51BC11)
 F (..\LIB\DataScope_DP\DataScope_DP.h)(0x5B51BC11)()
-F (..\BSP\pretreat\pretreat.c)(0x5B51F7C1)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\LIB\break -I ..\LIB\fdc2x14 -I ..\LIB\key -I ..\LIB\iic -I ..\LIB\led -I ..\LIB\pid -I ..\LIB\motor -I ..\LIB\lcd -I ..\LIB\DataScope_DP -I ..\BSP\pretreat -I ..\BSP\display-I.\RTE\Device\STM32F103ZE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_HD -DMyObject-o .\objects\pretreat.o --omf_browse .\objects\pretreat.crf --depend .\objects\pretreat.d)
-I (..\BSP\pretreat\pretreat.h)(0x5B51EA26)
+F (..\BSP\pretreat\pretreat.c)(0x5B52AEBB)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\LIB\break -I ..\LIB\fdc2x14 -I ..\LIB\key -I ..\LIB\iic -I ..\LIB\led -I ..\LIB\pid -I ..\LIB\motor -I ..\LIB\lcd -I ..\LIB\DataScope_DP -I ..\BSP\pretreat -I ..\BSP\display-I.\RTE\Device\STM32F103ZE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_HD -DMyObject-o .\objects\pretreat.o --omf_browse .\objects\pretreat.crf --depend .\objects\pretreat.d)
+I (..\BSP\pretreat\pretreat.h)(0x5B52AA87)
 I (..\LIB\fdc2x14\FDC2X14.h)(0x5B517A34)
 I (..\SYSTEM\sys\sys.h)(0x550F951B)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
@@ -333,7 +333,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
 I (..\LIB\lcd\lcd.h)(0x5B4EF146)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
 I (..\LIB\lcd\stm32f10x_fsmc.h)(0x50388DDC)
-F (..\BSP\pretreat\pretreat.h)(0x5B51EA26)()
+F (..\BSP\pretreat\pretreat.h)(0x5B52AA87)()
 F (..\BSP\display\display.c)(0x5B51EA8A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\LIB\break -I ..\LIB\fdc2x14 -I ..\LIB\key -I ..\LIB\iic -I ..\LIB\led -I ..\LIB\pid -I ..\LIB\motor -I ..\LIB\lcd -I ..\LIB\DataScope_DP -I ..\BSP\pretreat -I ..\BSP\display-I.\RTE\Device\STM32F103ZE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_HD -DMyObject-o .\objects\display.o --omf_browse .\objects\display.crf --depend .\objects\display.d)
 I (..\BSP\display\display.h)(0x5B51EA5E)
 I (..\LIB\lcd\lcd.h)(0x5B4EF146)
@@ -361,7 +361,7 @@ I (..\SYSTEM\delay\delay.h)(0x555AC82B)
 I (..\SYSTEM\usart\usart.h)(0x50517A82)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
 I (..\LIB\fdc2x14\FDC2X14.h)(0x5B517A34)
-I (..\BSP\pretreat\pretreat.h)(0x5B51EA26)
+I (..\BSP\pretreat\pretreat.h)(0x5B52AA87)
 F (..\BSP\display\display.h)(0x5B51EA5E)()
 F (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Lib\ARM\arm_cortexM3l_math.lib)(0x5A601928)()
 F (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\src\misc.c)(0x52F9EB20)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\LIB\break -I ..\LIB\fdc2x14 -I ..\LIB\key -I ..\LIB\iic -I ..\LIB\led -I ..\LIB\pid -I ..\LIB\motor -I ..\LIB\lcd -I ..\LIB\DataScope_DP -I ..\BSP\pretreat -I ..\BSP\display-I.\RTE\Device\STM32F103ZE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_HD -DMyObject-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)

@@ -4,6 +4,7 @@
 #include "FDC2X14.h"
 #include "headers.h"
 #include "lcd.h"
+#include "stdlib.h"
 
 extern int Level[8];
 extern int Read[8];
